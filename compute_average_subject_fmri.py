@@ -43,8 +43,7 @@ for run in range(n_runs):
     fmri_mean_sub = np.mean([fmri_sub_runs[run] for fmri_sub_runs in fmri_subs_runs], axis=0)
     fmri_mean_sub = standardize(fmri_mean_sub, axis=0)
     filename = os.path.join(fmri_data_avg_subject, 'average_subject_run-{}.gz'.format(run))
-    with open(filename, 'wb') as f:
-         joblib.dump(fmri_mean_sub, f, compress=4)
+    joblib.dump(fmri_mean_sub, filename, compress=4)
 
 # now compute reliable voxels
 from sklearn.linear_model import Ridge
@@ -122,5 +121,4 @@ for i_trial in range(n_trials):
     corr_split.append(np.mean(corr_runs, axis=0))
 
 filename = 'isc_{}trials_{}.gz'.format(n_trials, lang)
-with open(filename, 'wb') as f:
-     joblib.dump(np.array(corr_split), f, compress=4)
+joblib.dump(np.array(corr_split), filename, compress=4)
