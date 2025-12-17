@@ -7,23 +7,7 @@ fMRI predictors based on language models of increasing complexity recover brain 
 
 This repository contains the source code for our [paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/e28e19d00b23fe0265f433fa05a96b06-Abstract-Conference.html) accepted at the 38th Conference on Neural Information Processing Systems (NeurIPS 2024). See Citation and BibTeX reference at the bottom of this README.
 
-:warning: If you use code from this repository, please cite this repository as follows:
-```
-Bonnasse-Gahot, L., & Pallier, C. (2024).
-Source Code for "fMRI Predictors Based on Language Models of Increasing Complexity Recover Brain Left Lateralization."
-GitHub Repository. https://github.com/l-bg/llms_brain_lateralization.
-```
-or use the following BibTex citation:
-```
-@misc{lbg_cp_2024_code,
-  author = {Bonnasse-Gahot, Laurent and Pallier, Christophe},
-  title = {Source code for ``fMRI predictors based on language models of increasing complexity recover brain left lateralization''},
-  year = {2024},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/l-bg/llms_brain_lateralization}}
-}
-```
-
+:warning: If you use code from this repository, please cite this repository using the reference provided by clicking the link with the label "Cite this repository" in the right sidebar.
 
 ## Dependencies
 

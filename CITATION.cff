@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Bonnasse-Gahot"
+  given-names: "Laurent"
+  orcid: "https://orcid.org/0000-0002-2936-2780"
+- family-names: "Pallier"
+  given-names: "Christophe"
+  orcid: "https://orcid.org/0000-0002-3324-666X"
+title: Source code for "fMRI Predictors Based on Language Models of Increasing Complexity Recover Brain Left Lateralization."
+date-released: 2024-11-24
+url: "https://github.com/l-bg/llms_brain_lateralization"
