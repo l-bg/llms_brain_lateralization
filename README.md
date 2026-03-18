@@ -7,7 +7,9 @@ fMRI predictors based on language models of increasing complexity recover brain 
 
 This repository contains the source code for our [paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/e28e19d00b23fe0265f433fa05a96b06-Abstract-Conference.html) accepted at the 38th Conference on Neural Information Processing Systems (NeurIPS 2024). See Citation and BibTeX reference at the bottom of this README.
 
-:warning: If you use code from this repository, please cite this repository using the reference provided by clicking the link with the label "Cite this repository" in the right sidebar.
+:warning: If you use data or code from this repository, please cite this repository using the reference provided by clicking the link with the label "Cite this repository" in the right sidebar.
+
+doi: 10.5281/zenodo.19097232 
 
 ## Dependencies
 
